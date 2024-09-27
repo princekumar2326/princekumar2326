@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        <meta name="viewport"content="width=divice-width,intial-scale=1.0"/>
+        <link rel="stylesheet" href="./css/style.css "/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" 
+        rel="stylesheet" 
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" 
+        crossorigin="anonymous"
+        />
+        
+        <link rel="stylesheet" 
+        href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" 
+        />
+        <title>Trip to Dreams</title>
+    </head>
+    <body>
+        <!---Header-->
+        <header>
+            <a href="/"class="logo">Trip to Dreams</a>
+            <a href="#"class="menu" onclick="toggleMenu();">
+                <ion-icon class="open"name="menu-outline"></ion-icon>
+                <ion-icon class="close"name="close-outline"></ion-icon>
+            </a>
+            <ul class="nav">
+           <li><a class="nav-btn activate"href="/" onclick="resetHeader();">
+            <ion-icon name="home-outline"></ion-icon>
+        </a></li>
+           <li><a class="nav-btn"href="#"data-target="about">about</a></li>
+           <li><a class="nav-btn"href="#"data-target="services">services</a></li>
+           <li>
+            <a class="nav-btn"href="#"data-target="portfolio">portfolio</a>
+           </li>
+           <li>
+            <a class="nav-btn"href="#"data-target="contact">Contact</a>
+           </li>
+            </ul>
+            <div class="search">
+                <input type="text"placeholder="Search"/>
+                <ion-icon name="search-outline"></ion-icon>
+            </div>
+        </header>
+
+        <!--Mobile Navigation-->
+
+        <!--Banner-->
+        <div class="banner container-fluid">
+            <div class="bg-slide slide-1 active">
+                <div class="content">
+                    <h1 style="font-size: 60px;">Your Dreams Our Plans</h1>
+                    <p>
+                        Welcome to our destination wedding website, where your dream celebration awaits!
+                        Discover stunning venues, tailored packages, and expert resources to help you create the
+                        perfect day in a breathtaking location. From enchanting beaches to romantic gardens,
+                        we’re here to guide you every step of the way. Let’s make your wedding an unforgettable
+                         experience for you and your guests!
+                    </p>
+                </div>
+                <div class="circle bg">
+                    <img src="./images/wedding-1.jpg" alt=""/>
+                    <div class="circle large">
+                        <img src="./images/wedding-1.jpg" alt=""/>
+                        <div class="circle small">
+                            <img src="./images/wedding-1.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slide slide-2">
+                <div class="content">
+                    <h1>Ceremony</h1>
+                    <p>
+                        At our wedding planning service, we specialize in crafting unforgettable ceremonies tailored to your unique vision.
+                         From selecting the perfect venue to coordinating every detail, our experienced team ensures a seamless experience.
+                          Let us help you create a magical atmosphere that reflects your love story and delights your guests.
+
+
+                    </p>
+                </div>
+                <div class="circle bg">
+                    <img src="./images/wedding-2.jpg" alt=""/>
+                    <div class="circle large">
+                        <img src="./images/wedding-2.jpg" alt=""/>
+                        <div class="circle small">
+                            <img src="./images/wedding-2.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-slide slide-3">
+                <div class="content">
+                    <h1>Voyage</h1>
+                    <p>
+                        Welcome to our wedding planning voyage, where dreams transform into reality.
+                        Our dedicated team guides you through each step, ensuring a personalized experience from concept to execution.
+                        With attention to detail and a passion for perfection, we’ll create an unforgettable celebration that reflects your love story and vision.
+                        
+                    </p>
+                </div>
+                <div class="circle bg">
+                    <img src="./images/wedding-3.jpg" alt=""/>
+                    <div class="circle large">
+                        <img src="./images/wedding-3.jpg" alt=""/>
+                        <div class="circle small">
+                            <img src="./images/wedding-3.jpg" alt=""/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="slide-loader">
+                <li><a class="slide-btn active" data-target="slide-1">1</a></li>
+                <li><a class="slide-btn"data-target="slide-2">2</a></li>
+                <li><a class="slide-btn"data-target="slide-3">3</a></li>
+            </ul>
+            <div class="share">
+                <p>share</p>
+                <a href="#"><ion-icon name="share-social-outline"></ion-icon></a>
+            </div>
+            <div class="lead">
+                <svg viewBox="0 0 100 100" width="100" height="100">
+                    <defs>
+                        <path
+                        id="circle"
+                        d="
+                        M 50,50
+                        m -37, 0
+                        a 37,37,0 1,1 74,0
+                        a 37,37 0 1,1 -74,0"
+                        />
+                    </defs>
+                    <text font-size="17">
+                        <textPath xlink:href="#circle">
+                            Will you marry me....yes I will...
+                        </textPath>
+                    </text>
+                </svg> 
+                <a href="#"class="move-down"onclick="initNavigation();">
+                    <ion-icon name="chevron-down-outline"></ion-icon>
+                </a>
+            </div>
+        </div>
+        <!--*****************
+        ****Main Start******-->
+        <main>
+            <!-- About section -->
+            <section id="about" class="about">
+                <div class="container">
+                    <div class="row">
+                        <h1>About Us</h1>
+                    </div>
+                    <div class ="row">
+                        <div class ="col-lg-6">
+                            <div class="img-box">
+                                <img src="./images/about-1.jpg"alt="" class="img-fluid"/>
+                                <img src="./images/about-2.jpg"alt="" class="corner-img"/>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./images/bg-tree.png"alt="" class="section-bg-img"/>
+                            <h4>Make wedding dream come true</h4>
+                            <p>
+                                Welcome to your dedicated partner in crafting the wedding of your dreams. 
+                                At Enchanted Events, we believe that every love story is unique, 
+                                and your wedding should be a reflection of your personal journey together. 
+                                Our mission is to turn your vision into a beautifully orchestrated reality.
+                            </p>
+                            <p>
+                                Celebrate love in a breathtaking fusion of elegance and whimsy with our bespoke weddings. 
+                                 we specialize in crafting unforgettable moments tailored to your unique love story. 
+                                 Picture exchanging vows under a canopy of twinkling lights, surrounded by lush gardens and the soft melody of a string quartet. 
+                                 Whether you dream of a grand affair or an intimate gathering, our team is dedicated to turning your vision.
+                            </p>
+                            <a href="#" class="section-btn">Discover more</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Service section -->
+            <section id="services" class="services">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Services</h1>
+                </div>
+                <div class="row d-flex justify-content-center align-items-center">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/services-1.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <h4>Wedding Plan</h4>
+                                <p>
+                                    Our wedding planning service provides personalized packages to suit your vision. From venue selection to day-of coordination, we handle every detail, ensuring a seamless and unforgettable celebration tailored just for you.<br>
+                                 <a href="#" class="section-btn">Discover more</a> </br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/services-2.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <h4>Pre Wedding Shoot</h4>
+                                <p>
+                                    Our wedding planning service provides personalized packages to suit your vision. From venue selection to day-of coordination, we handle every detail, ensuring a seamless and unforgettable celebration tailored just for you.<br>
+                                 <a href="#" class="section-btn">Discover more</a> </br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <div class="img-box">
+                                <img src="./images/services-3.jpg" alt=""/>
+                            </div>
+                            <div class="details">
+                                <h4>Voyage</h4>
+                                <p>
+                                 we specialize in turning your wedding dreams into reality. 
+                                 With a passion for perfection and a keen eye for detail, 
+                                 we offer personalized planning and design services that reflect your unique love story. 
+                                 From intimate gatherings to grand celebrations, 
+                                 we are here to ensure your special day is as magical as you’ve always envisioned.<br>
+                                 <a href="#" class="section-btn">Discover more</a> </br>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- Portfolio section --> 
+            <section id="portfolio" class="portfolio">
+            <div class="container">
+                <div class="row">
+                    <h1>Our Portfolio</h1>
+                </div>
+                <ul id="portfolio-filters" class="d-flex justify-content-center">
+                    <li data-filter="#" class="filter-active">All</li>
+                    <li data-filter=".filter-wedding">Wedding</li>
+                    <li data-filter=".filter-ceremoney">Pre wedding</li>
+                    <li data-filter=".filter-voyage">Voyage</li>
+                </ul>
+                <div class="row portfolio-container">
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-1.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Wedding Planning 1</h4>
+                            <p>Wedding Planning 1</p>
+                            <a
+                            href="./images/portfolio/portfolio-1.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <!--Map the remaining data into the portfolio card -->
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-3.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Pre wedding</h4>
+                            <p>Pre wedding</p>
+                            <a
+                            href="./images/portfolio/portfolio-3.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-4.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Pre wedding 3</h4>
+                            <p>Pre wedding </p>
+                            <a
+                            href="./images/portfolio/portfolio-4.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-9.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Wedding Planning 2</h4>
+                            <p>Wedding Planning </p>
+                            <a
+                            href="./images/portfolio/portfolio-9.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-8.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Wedding Planning 3</h4>
+                            <p>Wedding Planning </p>
+                            <a
+                            href="./images/portfolio/portfolio-8.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-6.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Pre wedding 2</h4>
+                            <p>Pre wedding</p>
+                            <a
+                            href="./images/portfolio/portfolio-6.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-5.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Voyage 1</h4>
+                            <p>Voyage</p>
+                            <a
+                            href="./images/portfolio/portfolio-5.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-2.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Voyage</h4> 2</h4>
+                            <p>Voyage</p>
+                            <a
+                            href="./images/portfolio/portfolio-2.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-wedding">
+                        <div class="portfolio-img">
+                            <img
+                            class="img-fluid"
+                            src="./images/portfolio/portfolio-7.jpg"
+                            alt=""
+                            />
+                        </div>
+                        <div class="portfolio-info">
+                            <h4>Voyage3</h4>
+                            <p>Voyage</p>
+                            <a
+                            href="./images/portfolio/portfolio-7.jpg"
+                            data-gallery="portfolioGallery"
+                            class="portfolio-lightbox preview-link"
+                            title="Wedding Planning 1"
+                            >
+                            <ion-icon name="add-outline"></ion-icon
+                                ></a>
+                        <a href="#" class="details-link" title="More details">
+                            <ion-icon name="link-outline"></ion-icon>
+                        </a>
+                      </div>  
+                    </div>
+                </div>
+            </div>
+            </section>
+            <!-- Contact section -->
+            <section id="contact" class="contact">
+                <div class="container">
+                    <div class="row">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <!--Insert your map here, Google map embedment-->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d63349.15604649826!2d79.88567144999999!3d7.0885924000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slk!4v1717941786982!5m2!1sen!2slk" 
+                    width="100%" height="450" style="border:0;"
+                     allowfullscreen="" 
+                     loading="lazy" 
+                     referrerpolicy="no-referrer-when-downgrade"
+                     ></iframe>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-4">
+                        <div class="info">
+                            <div class="address">
+                                <ion-icon name="location-outline"></ion-icon>
+                                <h4>Location</h4>
+                                <p>Street Name, City Name, State, 123456</p>
+                            </div>
+                            <div class="email">
+                                <ion-icon name="mail-outline"></ion-icon>
+                                <h4>Email:</h4>
+                                <p>sakshiyadavy39@gmail.com</p>
+                                <p>shivangii789@gmail.com</p>
+                            </div>
+                            <div class="phone">
+                                <ion-icon name="call-outline"></ion-icon>
+                                <h4>Call:</h4>
+                                <p>+91 7458997421</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-8 mt-5 mt-lg-0">
+                        <form>
+                            <div class="row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" class="from-control" placeholder="Your name"
+                                    required
+                                    />
+                                </div>
+                                <div class="col-md-6 form-group mt-3 mt-md-0">
+                                    <input type="email" class="from-control" placeholder="Your email"
+                                    required
+                                    />
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <input
+                            type="text"
+                            class="from-control"
+                            placeholder="Subject"
+                            required
+                            />
+                        </div>
+                        <div class="form-group mt-3">
+                            <textarea
+                            class="form-control"
+                            name="message"
+                            id="message"
+                            rows="5"
+                            placeholder="Message"
+                            required
+                            ></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit">Send Message</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </main>
+        
+        <!--Main End-->
+
+        <!--Javascript vendors-->
+        <script 
+        type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script 
+        nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+         crossorigin="anonymous"
+         ></script>
+         <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script> 
+         <script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+        
+         <!--coustomized javascript-->
+        <script src="./js/glightbox.js"></script>
+        <script src="./js/lsotope.js"></script>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

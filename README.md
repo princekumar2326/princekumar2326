@@ -12,9 +12,9 @@ i am currently computer science student.
 My hobbies include traveling and cooking. 
 My motto is 
 "See the invisible, do the Impossible", Tech Support
-- 📫 **How to reach me:** lpuprinceyadav@gmail.com,
-- 😄 **Pronouns:** Imran Sir
+- 📫 **How to reach me:** lpuprinceyadav@gmail.com
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
+- 👉find me:- https://princeyadav2623.netlify.app
 
 ## 🔗 I am a Content Creator. 😊😊
 

@@ -40,12 +40,18 @@ Stay updated with the latest tutorials and projects by subscribing to my YouTube
 ---
 [![](https://visitcount.itsvg.in/api?id=princekumar2326&icon=4&color=0)](https://visitcount.itsvg.in)
 
-  ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://PayPal.me/prince2623) 
-
-  <!-- Snake Game Repo View -->
+ <!-- Snake Game Repo View -->
 
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>
+
+
+
+
+
+  ## 💰 You can help me by Donating
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://PayPal.me/prince2623) 
+
+ 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

@@ -41,7 +41,6 @@ Stay updated with the latest tutorials and projects by subscribing to my YouTube
 [![](https://visitcount.itsvg.in/api?id=princekumar2326&icon=4&color=0)](https://visitcount.itsvg.in)
 
  <!-- Snake Game Repo View -->
-
 <div align="center">
   <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
 </div>

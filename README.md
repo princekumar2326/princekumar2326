@@ -1,3 +1,29 @@
+# 💫 Hi 👋, I'm Prince Kumar
+**A passionate Software Engineer || DevOps Engineer || **
+
+Email Me 👉 ✉️ **lpuprinceyadav@gmailcom** For Collaboration/Project or Anything Else. 😊😊
+
+- 🔭 **I’m currently working on:** "**********"
+- 🌱 **I’m currently learning:** Junior Software Developer | Bachelor of cse student .
+- 👯 **I’m looking to collaborate on:** *****
+- 💬 **Ask me about:**Ever wondered why life takes us to the paths we never saw before and we somehow adapts and grow to the new situations. 
+Nothing is impossible in the world of AI and ML, everything can be achieved with right data.
+i am currently computer science student.
+My hobbies include traveling and cooking. 
+My motto is 
+"See the invisible, do the Impossible", Tech Support
+- 📫 **How to reach me:** lpuprinceyadav@gmail.com,
+- 😄 **Pronouns:** Imran Sir
+- ⚡ **Fun fact:** I Love Tech and Tech Love Me
+
+## 🔗 I am a Content Creator. 😊😊
+
+Stay updated with the latest tutorials and projects by subscribing to my YouTube channel and following on Instagram, LinkedIn.
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/__yadav.vishal__) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/princekumar2623) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@Mrvxlpu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lpuprinceyadav@gmail.com) 
+
+
+[![](https://visitcount.itsvg.in/api?id=alamimran613&icon=1&color=4)](https://visitcount.itsvg.in)
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/__yadav.vishal__) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/www.linkedin.com/in/princekumar2623) [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?logo=YouTube&logoColor=white)](https://youtube.com/@https://www.youtube.com/@Mrvxlpu) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:lpuprinceyadav@gmail.com) 
@@ -13,7 +39,7 @@
 [![](https://visitcount.itsvg.in/api?id=princekumar2326&icon=4&color=0)](https://visitcount.itsvg.in)
 
   ## 💰 You can help me by Donating
-  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://paypal.me/PayPal.me/prince2623) 
+  [![PayPal](https://img.shields.io/badge/PayPal-00457C?style=for-the-badge&logo=paypal&logoColor=white)](https://PayPal.me/prince2623) 
 
   
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->

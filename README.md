@@ -1,5 +1,5 @@
 # 💫 Hi 👋, I'm Prince Kumar
-**A passionate Software Engineer || DevOps Engineer || **
+**A passionate Software Engineer || Data science Engineer || **
 
 Email Me 👉 ✉️ **lpuprinceyadav@gmailcom** For Collaboration/Project or Anything Else. 😊😊
 
@@ -13,6 +13,7 @@ My hobbies include traveling and cooking.
 My motto is 
 "See the invisible, do the Impossible", Tech Support
 - 📫 **How to reach me:** lpuprinceyadav@gmail.com
+- 👉🔗https://www.linkedin.com/in/princekumar2623
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
 - 👉find me:- https://princeyadav2623.netlify.app
 

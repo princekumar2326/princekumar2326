@@ -1,5 +1,5 @@
 # 💫 Hi 👋, I'm Prince Kumar
-**A passionate Software Engineer || Data science Engineer || **
+**A passionate Software Engineer || ********************* || **
 
 Email Me 👉 ✉️ **lpuprinceyadav@gmailcom** For Collaboration/Project or Anything Else. 😊😊
 
@@ -17,7 +17,7 @@ My motto is
 - ⚡ **Fun fact:** I Love Tech and Tech Love Me
 - 👉find me:- https://princeyadav2623.netlify.app
 
-## 🔗 I am a Content Creator. 😊😊
+## 🔗 ***************************. 😊😊
 
 Stay updated with the latest tutorials and projects by subscribing to my YouTube channel and following on Instagram, LinkedIn.
 

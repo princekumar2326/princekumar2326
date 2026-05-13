@@ -3,8 +3,7 @@
 
 Email Me 👉 ✉️ **lpuprinceyadav@gmailcom** For Collaboration/Project or Anything Else. 😊😊
 
-- 🔭 **I’m currently working on:** "**********"
-- 🌱 **I’m currently learning:** Junior Software Developer | Bachelor of cse student .
+- 🌱 **I’m currently learning:** Software Developer | Bachelor of cse student .
 - 👯 **I’m looking to collaborate on:** *****
 - 💬 **Ask me about:**Ever wondered why life takes us to the paths we never saw before and we somehow adapts and grow to the new situations. 
 Nothing is impossible in the world of AI and ML, everything can be achieved with right data.
